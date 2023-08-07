@@ -1,0 +1,2117 @@
+(export 
+  (version D) 
+  (design 
+    (source "/home/iwa/documents/KiCAD/Digital Accessory Decoder/DAD 01/DAD 01.sch") 
+    (date "Thu 24 Jun 2021 11:18:57 AM CEST") 
+    (tool "Eeschema 5.1.10") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title "Digital Accessory Decoder 01 - Schematic") 
+        (company "Cyrille TOULET") 
+        (rev 1) 
+        (date 2021-06-24) 
+        (source "SM01.sch") 
+        (comment 
+          (number 1) 
+          (value "All rights reserved")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref A1) 
+      (value "Arduino Nano") 
+      (footprint Module:Arduino_Nano) 
+      (datasheet https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf) 
+      (libsource 
+        (lib MCU_Module) 
+        (part Arduino_Nano_v2.x) 
+        (description "Arduino Nano v2.x")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B493AD)) 
+    (comp 
+      (ref J2) 
+      (value "Terminal 1x2") 
+      (footprint TerminalBlock:TerminalBlock_bornier-2_P5.08mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B4BC9B)) 
+    (comp 
+      (ref D1) 
+      (value 1N4001) 
+      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal) 
+      (datasheet http://www.vishay.com/docs/88503/1n4001.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4001) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B4D662)) 
+    (comp 
+      (ref D2) 
+      (value 1N4001) 
+      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal) 
+      (datasheet http://www.vishay.com/docs/88503/1n4001.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4001) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B4EE7E)) 
+    (comp 
+      (ref D3) 
+      (value 1N4001) 
+      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal) 
+      (datasheet http://www.vishay.com/docs/88503/1n4001.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4001) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B4F17D)) 
+    (comp 
+      (ref D4) 
+      (value 1N4001) 
+      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal) 
+      (datasheet http://www.vishay.com/docs/88503/1n4001.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4001) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B4F4F8)) 
+    (comp 
+      (ref C1) 
+      (value 220µF) 
+      (footprint Capacitor_THT:CP_Radial_D6.3mm_P2.50mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Polarized) 
+        (description "Polarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B502E4)) 
+    (comp 
+      (ref U2) 
+      (value LM7805) 
+      (footprint Package_TO_SOT_THT:TO-220-3_Vertical) 
+      (datasheet https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF) 
+      (libsource 
+        (lib Regulator_Linear) 
+        (part LM7805_TO220) 
+        (description "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B52A6A)) 
+    (comp 
+      (ref U1) 
+      (value 6N137) 
+      (footprint Package_DIP:DIP-8_W7.62mm) 
+      (datasheet https://docs.broadcom.com/docs/AV02-0940EN) 
+      (libsource 
+        (lib Isolator) 
+        (part 6N137) 
+        (description "Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B542D7)) 
+    (comp 
+      (ref D5) 
+      (value 1N4148) 
+      (footprint Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal) 
+      (datasheet https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4148) 
+        (description "100V 0.15A standard switching diode, DO-35")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B56856)) 
+    (comp 
+      (ref R1) 
+      (value "1k (1W)") 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B575A6)) 
+    (comp 
+      (ref R5) 
+      (value 10k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B58782)) 
+    (comp 
+      (ref R6) 
+      (value 10k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B59023)) 
+    (comp 
+      (ref R7) 
+      (value 1k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B5DE29)) 
+    (comp 
+      (ref SW1) 
+      (value "Embeded push btn") 
+      (footprint Button_Switch_THT:SW_PUSH_6mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push) 
+        (description "Push button switch, generic, two pins")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B5E9BD)) 
+    (comp 
+      (ref SW2) 
+      (value "Embeded push btn") 
+      (footprint Button_Switch_THT:SW_PUSH_6mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push) 
+        (description "Push button switch, generic, two pins")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B5F60C)) 
+    (comp 
+      (ref SW3) 
+      (value "Embeded push btn") 
+      (footprint Button_Switch_THT:SW_PUSH_6mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push) 
+        (description "Push button switch, generic, two pins")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B6021F)) 
+    (comp 
+      (ref R2) 
+      (value 1k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B60BC9)) 
+    (comp 
+      (ref Q1) 
+      (value BC547) 
+      (footprint Package_TO_SOT_THT:TO-92_Inline) 
+      (datasheet https://www.onsemi.com/pub/Collateral/BC550-D.pdf) 
+      (libsource 
+        (lib Transistor_BJT) 
+        (part BC547) 
+        (description "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B67664)) 
+    (comp 
+      (ref Q2) 
+      (value BC547) 
+      (footprint Package_TO_SOT_THT:TO-92_Inline) 
+      (datasheet https://www.onsemi.com/pub/Collateral/BC550-D.pdf) 
+      (libsource 
+        (lib Transistor_BJT) 
+        (part BC547) 
+        (description "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B6815D)) 
+    (comp 
+      (ref D10) 
+      (value 1N4001) 
+      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal) 
+      (datasheet http://www.vishay.com/docs/88503/1n4001.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4001) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B6B004)) 
+    (comp 
+      (ref D11) 
+      (value 1N4001) 
+      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal) 
+      (datasheet http://www.vishay.com/docs/88503/1n4001.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4001) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B6C1AA)) 
+    (comp 
+      (ref R9) 
+      (value 2.2k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B7036C)) 
+    (comp 
+      (ref J1) 
+      (value "Terminal 1x2") 
+      (footprint TerminalBlock:TerminalBlock_bornier-2_P5.08mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B71EC3)) 
+    (comp 
+      (ref J8) 
+      (value "Terminal 1x3") 
+      (footprint TerminalBlock:TerminalBlock_bornier-3_P5.08mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x03) 
+        (description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B7E5C0)) 
+    (comp 
+      (ref J9) 
+      (value "Terminal 1x3") 
+      (footprint TerminalBlock:TerminalBlock_bornier-3_P5.08mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x03) 
+        (description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B7F55B)) 
+    (comp 
+      (ref K1) 
+      (value "Relay HFD2 012-S-L2") 
+      (footprint Package_DIP:DIP-16_W7.62mm_Socket) 
+      (datasheet https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf) 
+      (libsource 
+        (lib Relay) 
+        (part Relay_HFD2_012-S-L2) 
+        (description "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 3V DC coil")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B4C504)) 
+    (comp 
+      (ref C2) 
+      (value 220µF) 
+      (footprint Capacitor_THT:CP_Radial_D6.3mm_P2.50mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Polarized) 
+        (description "Polarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60BC308A)) 
+    (comp 
+      (ref R10) 
+      (value 2.2k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60C39310)) 
+    (comp 
+      (ref Q3) 
+      (value BC547) 
+      (footprint Package_TO_SOT_THT:TO-92_Inline) 
+      (datasheet https://www.onsemi.com/pub/Collateral/BC550-D.pdf) 
+      (libsource 
+        (lib Transistor_BJT) 
+        (part BC547) 
+        (description "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CC3C8C)) 
+    (comp 
+      (ref Q4) 
+      (value BC547) 
+      (footprint Package_TO_SOT_THT:TO-92_Inline) 
+      (datasheet https://www.onsemi.com/pub/Collateral/BC550-D.pdf) 
+      (libsource 
+        (lib Transistor_BJT) 
+        (part BC547) 
+        (description "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CC3C92)) 
+    (comp 
+      (ref D12) 
+      (value 1N4001) 
+      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal) 
+      (datasheet http://www.vishay.com/docs/88503/1n4001.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4001) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CC3C98)) 
+    (comp 
+      (ref D13) 
+      (value 1N4001) 
+      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal) 
+      (datasheet http://www.vishay.com/docs/88503/1n4001.pdf) 
+      (libsource 
+        (lib Diode) 
+        (part 1N4001) 
+        (description "50V 1A General Purpose Rectifier Diode, DO-41")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CC3C9E)) 
+    (comp 
+      (ref R11) 
+      (value 2.2k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CC3CA4)) 
+    (comp 
+      (ref J10) 
+      (value "Terminal 1x3") 
+      (footprint TerminalBlock:TerminalBlock_bornier-3_P5.08mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x03) 
+        (description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CC3CAA)) 
+    (comp 
+      (ref J11) 
+      (value "Terminal 1x3") 
+      (footprint TerminalBlock:TerminalBlock_bornier-3_P5.08mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x03) 
+        (description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CC3CB0)) 
+    (comp 
+      (ref K2) 
+      (value "Relay HFD2 012-S-L2") 
+      (footprint Package_DIP:DIP-16_W7.62mm_Socket) 
+      (datasheet https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf) 
+      (libsource 
+        (lib Relay) 
+        (part Relay_HFD2_012-S-L2) 
+        (description "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 3V DC coil")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CC3CB6)) 
+    (comp 
+      (ref R12) 
+      (value 2.2k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CC3CD9)) 
+    (comp 
+      (ref R8) 
+      (value 1k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60E9A508)) 
+    (comp 
+      (ref J6) 
+      (value "Conn 1x3 pins") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Male) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 610BD1D4)) 
+    (comp 
+      (ref J7) 
+      (value "Conn 1x3 pins") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Male) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61136D52)) 
+    (comp 
+      (ref R3) 
+      (value 1k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612BC47C)) 
+    (comp 
+      (ref R4) 
+      (value 1k) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612C4D87)) 
+    (comp 
+      (ref J3) 
+      (value "Terminal 1x3") 
+      (footprint TerminalBlock:TerminalBlock_bornier-3_P5.08mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x03) 
+        (description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61407785)) 
+    (comp 
+      (ref J5) 
+      (value "Conn 1x4 pins") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x04_Male) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6162A6FF)) 
+    (comp 
+      (ref J4) 
+      (value "Conn 1x3 pins") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Male) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60BF3831)) 
+    (comp 
+      (ref J14) 
+      (value "Conn 1x3 pins") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Male) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60CB1058)) 
+    (comp 
+      (ref J15) 
+      (value "Conn 1x3 pins") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Male) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60D00A8F)) 
+    (comp 
+      (ref J12) 
+      (value "Conn 1x3 pins") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Male) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60D80859)) 
+    (comp 
+      (ref J13) 
+      (value "Conn 1x3 pins") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Male) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60D94E52)) 
+    (comp 
+      (ref H2) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_3.2mm_M3) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60C2D172)) 
+    (comp 
+      (ref H1) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_3.2mm_M3) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60C476B1)) 
+    (comp 
+      (ref H3) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_3.2mm_M3) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60C4E03B)) 
+    (comp 
+      (ref D8) 
+      (value LED) 
+      (footprint LED_THT:LED_D3.0mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60E1B2C8)) 
+    (comp 
+      (ref D9) 
+      (value LED) 
+      (footprint LED_THT:LED_D3.0mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60E329A5)) 
+    (comp 
+      (ref D6) 
+      (value LED) 
+      (footprint LED_THT:LED_D3.0mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60E5AEFC)) 
+    (comp 
+      (ref D7) 
+      (value LED) 
+      (footprint LED_THT:LED_D3.0mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60E5AF02))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x03_Male) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03_Male)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x04_Male) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04_Male)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Screw_Terminal_01x02) 
+      (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp TerminalBlock*:*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Screw_Terminal_01x02)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Screw_Terminal_01x03) 
+      (description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp TerminalBlock*:*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Screw_Terminal_01x03)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C_Polarized) 
+      (description "Polarized capacitor") 
+      (docs ~) 
+      (footprints 
+        (fp CP_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C_Polarized)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Diode) 
+      (part 1N4001) 
+      (aliases 
+        (alias 1N4002) 
+        (alias 1N4003) 
+        (alias 1N4004) 
+        (alias 1N4005) 
+        (alias 1N4006) 
+        (alias 1N4007) 
+        (alias BA157) 
+        (alias BA158) 
+        (alias BA159)) 
+      (description "50V 1A General Purpose Rectifier Diode, DO-41") 
+      (docs http://www.vishay.com/docs/88503/1n4001.pdf) 
+      (footprints 
+        (fp D*DO?41*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) 1N4001) 
+        (field 
+          (name Footprint) Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Diode) 
+      (part 1N4148) 
+      (aliases 
+        (alias 1N4448) 
+        (alias 1N4149) 
+        (alias 1N4151) 
+        (alias 1N914) 
+        (alias BA243) 
+        (alias BA244) 
+        (alias BA282) 
+        (alias BA283) 
+        (alias BAV17) 
+        (alias BAV18) 
+        (alias BAV19) 
+        (alias BAV20) 
+        (alias BAV21) 
+        (alias BAW75) 
+        (alias BAW76) 
+        (alias BAY93)) 
+      (description "100V 0.15A standard switching diode, DO-35") 
+      (docs https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf) 
+      (footprints 
+        (fp D*DO?35*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) 1N4148) 
+        (field 
+          (name Footprint) Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Isolator) 
+      (part HCPL-261A) 
+      (aliases 
+        (alias HCPL-261N) 
+        (alias 6N137) 
+        (alias HCPL-2601) 
+        (alias HCPL-2611) 
+        (alias VO2601) 
+        (alias VO2611)) 
+      (description "Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, DIP-8") 
+      (docs http://docs.avagotech.com/docs/AV02-0391EN) 
+      (footprints 
+        (fp DIP*W7.62mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) HCPL-261A) 
+        (field 
+          (name Footprint) Package_DIP:DIP-8_W7.62mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name C) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 6) 
+          (name VO) 
+          (type openCol)) 
+        (pin 
+          (num 7) 
+          (name EN) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name VCC) 
+          (type power_in)))) 
+    (libpart 
+      (lib MCU_Module) 
+      (part Arduino_Nano_v2.x) 
+      (aliases 
+        (alias Arduino_Nano_v3.x)) 
+      (description "Arduino Nano v2.x") 
+      (docs https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf) 
+      (footprints 
+        (fp Arduino*Nano*)) 
+      (fields 
+        (field 
+          (name Reference) A) 
+        (field 
+          (name Value) Arduino_Nano_v2.x) 
+        (field 
+          (name Footprint) Module:Arduino_Nano)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name D1/TX) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name D0/RX) 
+          (type BiDi)) 
+        (pin 
+          (num 3) 
+          (name ~RESET) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 5) 
+          (name D2) 
+          (type BiDi)) 
+        (pin 
+          (num 6) 
+          (name D3) 
+          (type BiDi)) 
+        (pin 
+          (num 7) 
+          (name D4) 
+          (type BiDi)) 
+        (pin 
+          (num 8) 
+          (name D5) 
+          (type BiDi)) 
+        (pin 
+          (num 9) 
+          (name D6) 
+          (type BiDi)) 
+        (pin 
+          (num 10) 
+          (name D7) 
+          (type BiDi)) 
+        (pin 
+          (num 11) 
+          (name D8) 
+          (type BiDi)) 
+        (pin 
+          (num 12) 
+          (name D9) 
+          (type BiDi)) 
+        (pin 
+          (num 13) 
+          (name D10) 
+          (type BiDi)) 
+        (pin 
+          (num 14) 
+          (name D11) 
+          (type BiDi)) 
+        (pin 
+          (num 15) 
+          (name D12) 
+          (type BiDi)) 
+        (pin 
+          (num 16) 
+          (name D13) 
+          (type BiDi)) 
+        (pin 
+          (num 17) 
+          (name 3V3) 
+          (type power_out)) 
+        (pin 
+          (num 18) 
+          (name AREF) 
+          (type input)) 
+        (pin 
+          (num 19) 
+          (name A0) 
+          (type BiDi)) 
+        (pin 
+          (num 20) 
+          (name A1) 
+          (type BiDi)) 
+        (pin 
+          (num 21) 
+          (name A2) 
+          (type BiDi)) 
+        (pin 
+          (num 22) 
+          (name A3) 
+          (type BiDi)) 
+        (pin 
+          (num 23) 
+          (name A4) 
+          (type BiDi)) 
+        (pin 
+          (num 24) 
+          (name A5) 
+          (type BiDi)) 
+        (pin 
+          (num 25) 
+          (name A6) 
+          (type BiDi)) 
+        (pin 
+          (num 26) 
+          (name A7) 
+          (type BiDi)) 
+        (pin 
+          (num 27) 
+          (name +5V) 
+          (type power_out)) 
+        (pin 
+          (num 28) 
+          (name ~RESET) 
+          (type input)) 
+        (pin 
+          (num 29) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 30) 
+          (name VIN) 
+          (type power_in)))) 
+    (libpart 
+      (lib Mechanical) 
+      (part MountingHole) 
+      (description "Mounting Hole without connection") 
+      (docs ~) 
+      (footprints 
+        (fp MountingHole*)) 
+      (fields 
+        (field 
+          (name Reference) H) 
+        (field 
+          (name Value) MountingHole))) 
+    (libpart 
+      (lib Regulator_Linear) 
+      (part LM7805_TO220) 
+      (aliases 
+        (alias LM7806_TO220) 
+        (alias LM7808_TO220) 
+        (alias LM7809_TO220) 
+        (alias LM7810_TO220) 
+        (alias LM7812_TO220) 
+        (alias LM7815_TO220) 
+        (alias LM7818_TO220) 
+        (alias LM7824_TO220) 
+        (alias LM78M05_TO220) 
+        (alias SPX2920U-3.3_TO220) 
+        (alias SPX2920U-5.0_TO220) 
+        (alias LF15_TO220) 
+        (alias LF18_TO220) 
+        (alias LF25_TO220) 
+        (alias LF33_TO220) 
+        (alias LF50_TO220) 
+        (alias LF60_TO220) 
+        (alias LF80_TO220) 
+        (alias LF85_TO220) 
+        (alias LF120_TO220) 
+        (alias LF47_TO220) 
+        (alias LF90_TO220) 
+        (alias LM341T-05_TO220) 
+        (alias LM341T-12_TO220) 
+        (alias LM341T-15_TO220) 
+        (alias LM2937xT) 
+        (alias LM2931-3.3_TO220) 
+        (alias LM2931-5.0_TO220)) 
+      (description "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220") 
+      (docs https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF) 
+      (footprints 
+        (fp TO?220*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) LM7805_TO220) 
+        (field 
+          (name Footprint) Package_TO_SOT_THT:TO-220-3_Vertical)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VI) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 3) 
+          (name VO) 
+          (type power_out)))) 
+    (libpart 
+      (lib Relay) 
+      (part Relay_HFD2_012-S-L2) 
+      (aliases 
+        (alias EC2-4.5TNU_copy_copy) 
+        (alias EC2-5TNU_copy_copy) 
+        (alias EC2-12TNU_copy_copy) 
+        (alias EC2-24TNU_copy_copy)) 
+      (description "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), double coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 3V DC coil") 
+      (docs https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf) 
+      (footprints 
+        (fp Relay*THT*Kemet*EC2*DoubleCoil*)) 
+      (fields 
+        (field 
+          (name Reference) K) 
+        (field 
+          (name Value) Relay_HFD2_012-S-L2) 
+        (field 
+          (name Footprint) Relay_THT:Relay_DPDT_Kemet_EC2_DoubleCoil)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 11) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 13) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 15) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 16) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Switch) 
+      (part SW_Push) 
+      (description "Push button switch, generic, two pins") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_Push)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)))) 
+    (libpart 
+      (lib Transistor_BJT) 
+      (part BC547) 
+      (aliases 
+        (alias BC546) 
+        (alias BC548) 
+        (alias BC549) 
+        (alias BC550) 
+        (alias BC337) 
+        (alias BC338)) 
+      (description "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92") 
+      (docs https://www.onsemi.com/pub/Collateral/BC550-D.pdf) 
+      (footprints 
+        (fp TO?92*)) 
+      (fields 
+        (field 
+          (name Reference) Q) 
+        (field 
+          (name Value) BC547) 
+        (field 
+          (name Footprint) Package_TO_SOT_THT:TO-92_Inline)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name C) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name B) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name E) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/Connector.lib)) 
+    (library 
+      (logical Device) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/Device.lib)) 
+    (library 
+      (logical Diode) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/Diode.lib)) 
+    (library 
+      (logical Isolator) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/Isolator.lib)) 
+    (library 
+      (logical MCU_Module) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/MCU_Module.lib)) 
+    (library 
+      (logical Mechanical) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/Mechanical.lib)) 
+    (library 
+      (logical Regulator_Linear) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/Regulator_Linear.lib)) 
+    (library 
+      (logical Relay) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/Relay.lib)) 
+    (library 
+      (logical Switch) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/Switch.lib)) 
+    (library 
+      (logical Transistor_BJT) 
+      (uri /home/iwa/documents/KiCAD/kicad-symbols/Transistor_BJT.lib))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name GND) 
+      (node 
+        (ref A1) 
+        (pin 29)) 
+      (node 
+        (ref J5) 
+        (pin 4)) 
+      (node 
+        (ref R4) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref Q3) 
+        (pin 3)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref R8) 
+        (pin 1)) 
+      (node 
+        (ref D4) 
+        (pin 2)) 
+      (node 
+        (ref D2) 
+        (pin 2)) 
+      (node 
+        (ref Q4) 
+        (pin 3)) 
+      (node 
+        (ref U2) 
+        (pin 2)) 
+      (node 
+        (ref R7) 
+        (pin 1)) 
+      (node 
+        (ref R3) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 3)) 
+      (node 
+        (ref Q2) 
+        (pin 3)) 
+      (node 
+        (ref Q1) 
+        (pin 3)) 
+      (node 
+        (ref R2) 
+        (pin 2)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref J7) 
+        (pin 3))) 
+    (net 
+      (code 2) 
+      (name "Net-(A1-Pad14)") 
+      (node 
+        (ref J7) 
+        (pin 1)) 
+      (node 
+        (ref A1) 
+        (pin 14))) 
+    (net 
+      (code 3) 
+      (name SW_MODE) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref A1) 
+        (pin 10)) 
+      (node 
+        (ref R2) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name SW_POS_A) 
+      (node 
+        (ref R3) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref A1) 
+        (pin 11)) 
+      (node 
+        (ref SW2) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 1))) 
+    (net 
+      (code 5) 
+      (name SW_POS_B) 
+      (node 
+        (ref A1) 
+        (pin 12)) 
+      (node 
+        (ref J4) 
+        (pin 3)) 
+      (node 
+        (ref SW3) 
+        (pin 2)) 
+      (node 
+        (ref R4) 
+        (pin 1)) 
+      (node 
+        (ref J3) 
+        (pin 3))) 
+    (net 
+      (code 6) 
+      (name "Net-(A1-Pad21)") 
+      (node 
+        (ref D8) 
+        (pin 2)) 
+      (node 
+        (ref A1) 
+        (pin 21))) 
+    (net 
+      (code 7) 
+      (name "Net-(A1-Pad22)") 
+      (node 
+        (ref A1) 
+        (pin 22)) 
+      (node 
+        (ref D9) 
+        (pin 2))) 
+    (net 
+      (code 8) 
+      (name "Net-(A1-Pad20)") 
+      (node 
+        (ref D7) 
+        (pin 2)) 
+      (node 
+        (ref A1) 
+        (pin 20))) 
+    (net 
+      (code 9) 
+      (name "Net-(A1-Pad19)") 
+      (node 
+        (ref D6) 
+        (pin 2)) 
+      (node 
+        (ref A1) 
+        (pin 19))) 
+    (net 
+      (code 10) 
+      (name VCC) 
+      (node 
+        (ref D10) 
+        (pin 1)) 
+      (node 
+        (ref K1) 
+        (pin 1)) 
+      (node 
+        (ref D11) 
+        (pin 1)) 
+      (node 
+        (ref K1) 
+        (pin 2)) 
+      (node 
+        (ref J5) 
+        (pin 1)) 
+      (node 
+        (ref D13) 
+        (pin 1)) 
+      (node 
+        (ref K2) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 1)) 
+      (node 
+        (ref K2) 
+        (pin 2)) 
+      (node 
+        (ref D12) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 1))) 
+    (net 
+      (code 11) 
+      (name "Net-(A1-Pad13)") 
+      (node 
+        (ref A1) 
+        (pin 13)) 
+      (node 
+        (ref J6) 
+        (pin 1))) 
+    (net 
+      (code 12) 
+      (name +5V) 
+      (node 
+        (ref U2) 
+        (pin 3)) 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref R5) 
+        (pin 1)) 
+      (node 
+        (ref A1) 
+        (pin 30)) 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref SW1) 
+        (pin 1)) 
+      (node 
+        (ref SW2) 
+        (pin 1)) 
+      (node 
+        (ref SW3) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 2)) 
+      (node 
+        (ref J7) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 2))) 
+    (net 
+      (code 13) 
+      (name "Net-(J11-Pad3)") 
+      (node 
+        (ref K2) 
+        (pin 9)) 
+      (node 
+        (ref J15) 
+        (pin 3)) 
+      (node 
+        (ref J11) 
+        (pin 3))) 
+    (net 
+      (code 14) 
+      (name "Net-(J10-Pad1)") 
+      (node 
+        (ref J10) 
+        (pin 1)) 
+      (node 
+        (ref K2) 
+        (pin 6)) 
+      (node 
+        (ref J14) 
+        (pin 1))) 
+    (net 
+      (code 15) 
+      (name "Net-(J11-Pad2)") 
+      (node 
+        (ref K2) 
+        (pin 13)) 
+      (node 
+        (ref J15) 
+        (pin 2)) 
+      (node 
+        (ref J11) 
+        (pin 2))) 
+    (net 
+      (code 16) 
+      (name "Net-(Q4-Pad2)") 
+      (node 
+        (ref Q4) 
+        (pin 2)) 
+      (node 
+        (ref R12) 
+        (pin 2))) 
+    (net 
+      (code 17) 
+      (name "Net-(Q3-Pad2)") 
+      (node 
+        (ref R11) 
+        (pin 2)) 
+      (node 
+        (ref Q3) 
+        (pin 2))) 
+    (net 
+      (code 18) 
+      (name RESET_B) 
+      (node 
+        (ref R12) 
+        (pin 1)) 
+      (node 
+        (ref A1) 
+        (pin 9))) 
+    (net 
+      (code 19) 
+      (name SET_B) 
+      (node 
+        (ref R11) 
+        (pin 1)) 
+      (node 
+        (ref A1) 
+        (pin 8))) 
+    (net 
+      (code 20) 
+      (name RESET_A) 
+      (node 
+        (ref R10) 
+        (pin 1)) 
+      (node 
+        (ref A1) 
+        (pin 7))) 
+    (net 
+      (code 21) 
+      (name "Net-(J10-Pad2)") 
+      (node 
+        (ref K2) 
+        (pin 4)) 
+      (node 
+        (ref J10) 
+        (pin 2)) 
+      (node 
+        (ref J14) 
+        (pin 2))) 
+    (net 
+      (code 22) 
+      (name SET_A) 
+      (node 
+        (ref A1) 
+        (pin 6)) 
+      (node 
+        (ref R9) 
+        (pin 1))) 
+    (net 
+      (code 23) 
+      (name "Net-(J13-Pad1)") 
+      (node 
+        (ref J9) 
+        (pin 1)) 
+      (node 
+        (ref J13) 
+        (pin 1)) 
+      (node 
+        (ref K1) 
+        (pin 11))) 
+    (net 
+      (code 24) 
+      (name "Net-(J12-Pad3)") 
+      (node 
+        (ref K1) 
+        (pin 8)) 
+      (node 
+        (ref J8) 
+        (pin 3)) 
+      (node 
+        (ref J12) 
+        (pin 3))) 
+    (net 
+      (code 25) 
+      (name "Net-(D6-Pad1)") 
+      (node 
+        (ref R7) 
+        (pin 2)) 
+      (node 
+        (ref D6) 
+        (pin 1)) 
+      (node 
+        (ref D7) 
+        (pin 1))) 
+    (net 
+      (code 26) 
+      (name "Net-(D8-Pad1)") 
+      (node 
+        (ref D9) 
+        (pin 1)) 
+      (node 
+        (ref D8) 
+        (pin 1)) 
+      (node 
+        (ref R8) 
+        (pin 2))) 
+    (net 
+      (code 27) 
+      (name "Net-(A1-Pad2)") 
+      (node 
+        (ref A1) 
+        (pin 2)) 
+      (node 
+        (ref J5) 
+        (pin 2))) 
+    (net 
+      (code 28) 
+      (name "Net-(A1-Pad1)") 
+      (node 
+        (ref A1) 
+        (pin 1)) 
+      (node 
+        (ref J5) 
+        (pin 3))) 
+    (net 
+      (code 29) 
+      (name "Net-(J11-Pad1)") 
+      (node 
+        (ref J11) 
+        (pin 1)) 
+      (node 
+        (ref K2) 
+        (pin 11)) 
+      (node 
+        (ref J15) 
+        (pin 1))) 
+    (net 
+      (code 30) 
+      (name "Net-(J10-Pad3)") 
+      (node 
+        (ref K2) 
+        (pin 8)) 
+      (node 
+        (ref J14) 
+        (pin 3)) 
+      (node 
+        (ref J10) 
+        (pin 3))) 
+    (net 
+      (code 31) 
+      (name "Net-(J13-Pad2)") 
+      (node 
+        (ref K1) 
+        (pin 13)) 
+      (node 
+        (ref J13) 
+        (pin 2)) 
+      (node 
+        (ref J9) 
+        (pin 2))) 
+    (net 
+      (code 32) 
+      (name "Net-(J12-Pad2)") 
+      (node 
+        (ref J12) 
+        (pin 2)) 
+      (node 
+        (ref K1) 
+        (pin 4)) 
+      (node 
+        (ref J8) 
+        (pin 2))) 
+    (net 
+      (code 33) 
+      (name "Net-(J12-Pad1)") 
+      (node 
+        (ref J12) 
+        (pin 1)) 
+      (node 
+        (ref J8) 
+        (pin 1)) 
+      (node 
+        (ref K1) 
+        (pin 6))) 
+    (net 
+      (code 34) 
+      (name "Net-(J13-Pad3)") 
+      (node 
+        (ref K1) 
+        (pin 9)) 
+      (node 
+        (ref J9) 
+        (pin 3)) 
+      (node 
+        (ref J13) 
+        (pin 3))) 
+    (net 
+      (code 35) 
+      (name "Net-(D1-Pad2)") 
+      (node 
+        (ref D2) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 2))) 
+    (net 
+      (code 36) 
+      (name "Net-(D3-Pad2)") 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref D4) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 2))) 
+    (net 
+      (code 37) 
+      (name "Net-(D10-Pad2)") 
+      (node 
+        (ref Q1) 
+        (pin 1)) 
+      (node 
+        (ref D10) 
+        (pin 2)) 
+      (node 
+        (ref K1) 
+        (pin 16))) 
+    (net 
+      (code 38) 
+      (name "Net-(D11-Pad2)") 
+      (node 
+        (ref K1) 
+        (pin 15)) 
+      (node 
+        (ref Q2) 
+        (pin 1)) 
+      (node 
+        (ref D11) 
+        (pin 2))) 
+    (net 
+      (code 39) 
+      (name "Net-(Q1-Pad2)") 
+      (node 
+        (ref Q1) 
+        (pin 2)) 
+      (node 
+        (ref R9) 
+        (pin 2))) 
+    (net 
+      (code 40) 
+      (name "Net-(D5-Pad2)") 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref D5) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 3))) 
+    (net 
+      (code 41) 
+      (name "Net-(A1-Pad26)") 
+      (node 
+        (ref A1) 
+        (pin 26))) 
+    (net 
+      (code 42) 
+      (name "Net-(A1-Pad27)") 
+      (node 
+        (ref A1) 
+        (pin 27))) 
+    (net 
+      (code 43) 
+      (name "Net-(A1-Pad28)") 
+      (node 
+        (ref A1) 
+        (pin 28))) 
+    (net 
+      (code 44) 
+      (name "Net-(A1-Pad3)") 
+      (node 
+        (ref A1) 
+        (pin 3))) 
+    (net 
+      (code 45) 
+      (name "Net-(A1-Pad4)") 
+      (node 
+        (ref A1) 
+        (pin 4))) 
+    (net 
+      (code 46) 
+      (name "Net-(A1-Pad25)") 
+      (node 
+        (ref A1) 
+        (pin 25))) 
+    (net 
+      (code 47) 
+      (name "Net-(A1-Pad18)") 
+      (node 
+        (ref A1) 
+        (pin 18))) 
+    (net 
+      (code 48) 
+      (name "Net-(A1-Pad15)") 
+      (node 
+        (ref A1) 
+        (pin 15))) 
+    (net 
+      (code 49) 
+      (name "Net-(A1-Pad16)") 
+      (node 
+        (ref A1) 
+        (pin 16))) 
+    (net 
+      (code 50) 
+      (name "Net-(A1-Pad17)") 
+      (node 
+        (ref A1) 
+        (pin 17))) 
+    (net 
+      (code 51) 
+      (name "Net-(A1-Pad23)") 
+      (node 
+        (ref A1) 
+        (pin 23))) 
+    (net 
+      (code 52) 
+      (name "Net-(A1-Pad24)") 
+      (node 
+        (ref A1) 
+        (pin 24))) 
+    (net 
+      (code 53) 
+      (name "Net-(R5-Pad2)") 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref R5) 
+        (pin 2))) 
+    (net 
+      (code 54) 
+      (name "Net-(U1-Pad1)") 
+      (node 
+        (ref U1) 
+        (pin 1))) 
+    (net 
+      (code 55) 
+      (name "Net-(D5-Pad1)") 
+      (node 
+        (ref R1) 
+        (pin 1)) 
+      (node 
+        (ref D5) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 2))) 
+    (net 
+      (code 56) 
+      (name "Net-(Q2-Pad2)") 
+      (node 
+        (ref Q2) 
+        (pin 2)) 
+      (node 
+        (ref R10) 
+        (pin 2))) 
+    (net 
+      (code 57) 
+      (name "Net-(D12-Pad2)") 
+      (node 
+        (ref D12) 
+        (pin 2)) 
+      (node 
+        (ref Q3) 
+        (pin 1)) 
+      (node 
+        (ref K2) 
+        (pin 16))) 
+    (net 
+      (code 58) 
+      (name "Net-(D13-Pad2)") 
+      (node 
+        (ref D13) 
+        (pin 2)) 
+      (node 
+        (ref K2) 
+        (pin 15)) 
+      (node 
+        (ref Q4) 
+        (pin 1))) 
+    (net 
+      (code 59) 
+      (name "Net-(J1-Pad1)") 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 1))) 
+    (net 
+      (code 60) 
+      (name DCC) 
+      (node 
+        (ref A1) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 6)) 
+      (node 
+        (ref R6) 
+        (pin 2)))))
